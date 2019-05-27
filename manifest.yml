@@ -1,0 +1,11 @@
+---
+
+applications:
+- disk_quota: 256M
+  name: Technoutsav
+  instances: 1
+  memory: 256M
+services:
+ - Db2-d2
+ - Internet of Things Platform-nh
+buildpack: https://github.com/ibmdb/db2heroku-buildpack-php
